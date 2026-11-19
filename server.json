@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/vibe-code-security-scanner-mcp",
+  "title": "Vibe Code Security Scanner",
+  "description": "Scan any AI-built app for leaked API keys and open databases, A-F grade, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/vibe-code-security-scanner-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/vibe-code-security-scanner"
+    }
+  ]
+}

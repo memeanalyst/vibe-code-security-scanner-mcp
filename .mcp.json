@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "vibe-code-security-scanner": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/vibe-code-security-scanner"
+    }
+  }
+}
